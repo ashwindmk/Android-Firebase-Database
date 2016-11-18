@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
  * Created by ashwin on 9/9/16.
  */
 
-//@JsonIgnoreProperties
+@JsonIgnoreProperties(ignoreUnknown=true)
 public class Person
 {
     //name and address string
